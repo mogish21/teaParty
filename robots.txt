@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tea-shop.vercel.app/sitemap.xml
