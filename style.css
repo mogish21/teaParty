@@ -30,10 +30,19 @@ nav ul li a {
 }
 
 .hero {
-  background: #6d9f71;
+  background-image: url("/assets/images/tea-shop-img.jpg");
+  background-size: cover; /* Fills the entire section, may crop slightly */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+
   text-align: center;
   color: white;
-  padding: 100px 20px;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 0 20px; /* Optional horizontal padding for text */
 }
 
 .hero h2 {
